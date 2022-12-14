@@ -1,7 +1,7 @@
 # first pixel perfect 
 
-### smart phone responsive
+#### smart phone responsive
 
-### tablet responsive
+#### tablet responsive
 
 * https://edgarleon93.github.io/TimBernesLee/
