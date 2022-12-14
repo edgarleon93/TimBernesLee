@@ -1,0 +1,84 @@
+* {
+    font-family: serif;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-color: beige;
+    border-style: solid;
+}
+
+.navclass {
+    min-height: 50px;
+    height: 50px; 
+}
+
+.tim {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 5px;
+    }
+.timname h1 {
+    margin-bottom: 0px;
+}
+.timname h3 {
+    margin-top: 0px;
+}
+
+.butcontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}    
+
+.pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timinfo {
+    margin-top: 15px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+
+    }
+
+.contentbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.info {
+    max-height: 150px;
+    height: 100%;    
+    margin-bottom: 25px;
+}
+
+.relatedcontent {
+    align-self: start;
+
+}
