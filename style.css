@@ -48,16 +48,31 @@ button {
     grid-column-gap: 5px;
     grid-row-gap: 5px;
     background-color: rgb(7,28,46);
-    }
+    justify-content: space-between;
+    align-items: center;
+}
     
-.bar { grid-area: one; }
+.bar { 
+    grid-area: one; 
+    justify-content: start;
+}
 .bar1 {grid-area: two; }
-.bar2 { grid-area: three; } 
-.bar3 {grid-area: six; }
+.bar2 { 
+    grid-area: three; 
 
-
-.bar1 {
-    align-self: flex-start;
+} 
+.helevetica {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bar3 {
+    grid-area: six; 
+    align-items: center;
+}
+.sub {
+    grid-area: five;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(150,49,0)
 }
 
 .britannica b {
@@ -72,6 +87,9 @@ button {
     color: #e4e4e4;
 }
 .fa-user {
+    color: #e4e4e4;
+}
+.fa-angles-down {
     color: #e4e4e4;
 }
 
@@ -190,3 +208,61 @@ button {
         padding-left: 100px;
     }
 }
+
+@media (min-width: 992px) {
+    .butcontainer {
+    display: flex;
+    flex-direction: row;
+    }
+    .container {
+        display: column;
+        /* grid-template-columns: repeat(3, 1fr); */
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;  
+        padding-right: 500px;
+        padding-left: 100px;
+        border-width: 0px;
+        }
+    .timinfo {
+        display: flexbox;
+    } 
+    .tim {
+        display: flex;
+    }  
+    .butcontainer {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    } 
+    .timcontain {
+        display: grid;
+        grid-template-columns: "one1 two2";
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;
+        }
+        
+        .timtext{ grid-area: 1 / 1 / 2 / 2; 
+        padding-right: 10px;
+        }
+        .timinfo { grid-area: 1 / 2 / 2 / 3; 
+            ;
+        } 
+
+    
+    .info {
+        padding-left: 80px;
+    }
+    .deskcontain {
+        border-color: gainsboro;
+        border-style: solid;
+        border-radius: 4px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        overflow-wrap: contain;
+
+    }
+}
+    
