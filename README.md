@@ -1,9 +1,9 @@
-# First pixel perfect 
+# First pixel perfect of the "Tim-Bernes Lee" Britannica page
 
 #### Smart phone responsive :)
 
 #### Tablet responsive :)
 
-#### Not desktop responsive :(
+#### Desktop responsive :)
 
 * https://edgarleon93.github.io/TimBernesLee/
